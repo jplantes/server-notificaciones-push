@@ -1,0 +1,19 @@
+{
+  "name": "server-noti-push",
+  "version": "0.0.1",
+  "description": "Servidor de notificaciones push de prueba",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Pablo Pérez Lantes",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "web-push": "^3.6.3"
+  }
+}
